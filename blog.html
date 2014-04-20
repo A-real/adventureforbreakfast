@@ -480,7 +480,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="footer">
 				<div class="wrap">
 				<div class="footer-left">
-					<h2>FANKS FOR WATCHING, <span>I hope you enjoyed it</span></h2>
+					<h2>Connect with us, <span>we would love to hear from you</span></h2>
 				</div>
 				<div class="footer-right">
 					<ul>
@@ -501,9 +501,39 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="copy-right">
 				<div class="wrap">
 					<p>Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+					<!--scrolling-->
+					<script type="text/javascript" src="web/js/move-top.js"></script>
+					<script type="text/javascript">
+							$(function() {
+							  $('a[href*=#]:not([href=#])').click(function() {
+							    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+							      var target = $(this.hash);
+							      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+							      if (target.length) {
+							        $('html,body').animate({
+							          scrollTop: target.offset().top
+							        }, 1000);
+							        return false;
+							      }
+							    }
+							  });
+							});
+					</script>
+					<!--//scrolling-->
 					<script type="text/javascript">
 							$(document).ready(function() {
+								/*
+								var defaults = {
+						  			containerID: 'toTop', // fading element id
+									containerHoverID: 'toTopHover', // fading element hover id
+									scrollSpeed: 1200,
+									easingType: 'linear'
+						 		};
+								*/
+
 								$().UItoTop({ easingType: 'easeOutQuart' });
+
 							});
 						</script>
 				    <a href="#move-top" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
@@ -513,4 +543,3 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!--//End-wrap-->
 	</body>
 </html>
-

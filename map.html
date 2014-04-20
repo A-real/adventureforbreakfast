@@ -36,12 +36,10 @@
 					</div>
 					<nav id="menu-left">
 						<ul>
+							<li><a href="index.html">Home</a></li>
 							<li><a href="blog.html">Blog</a></li>
-							<li><a href="map.html">Map</a></li>
-							<li><a href="#about">Get to know us</a></li>
-							<li><a href="#work">Past Adventures</a></li>
-							<!--<li><a href="#services">Services</a></li>-->
-							<li><a href="#contact">Contact</a></li>
+							<li class="active"><a href="map.html">Map</a></li>
+
 							
 						</ul>
 					</nav>
@@ -102,7 +100,7 @@
 					<label><span> </span></label>
 
 					<i><a> </a></i>
-					<small><a>Coming Soon</a></small>
+					<small><a>Interactive tavel map coming soon</a></small>
 			</div>
 			<script type="text/javascript" src="web/js/jquery.cslider.js"></script>
 			<script type="text/javascript">
@@ -117,3 +115,70 @@
 			</script>
 				<!--//End-da-slider-->
 			</div>
+						<!-- start-footer-->
+			<div class="footer">
+				<div class="wrap">
+				<div class="footer-left">
+					<h2>Connect with us, <span>we would love to hear from you</span></h2>
+				</div>
+				<div class="footer-right">
+					<ul>
+						<li><a class="youtube" href="#"><span> </span></a></li>
+						<li><a class="skye" href="#"><span> </span></a></li>
+						<li><a class="flicker" href="#"><span> </span></a></li>
+						<li><a class="rss" href="#"><span> </span></a></li>
+						<li><a class="twitter" href="#"><span> </span></a></li>
+						<li><a class="dribbble" href="#"><span> </span></a></li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				<div class="clear"> </div>
+				</div>
+			</div>
+			<!-- //End-footer-->
+			<!--start-copy-right-->
+			<div class="copy-right">
+				<div class="wrap">
+					<p>Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+					<!--scrolling-->
+					<script type="text/javascript" src="web/js/move-top.js"></script>
+					<script type="text/javascript">
+							$(function() {
+							  $('a[href*=#]:not([href=#])').click(function() {
+							    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+							      var target = $(this.hash);
+							      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+							      if (target.length) {
+							        $('html,body').animate({
+							          scrollTop: target.offset().top
+							        }, 1000);
+							        return false;
+							      }
+							    }
+							  });
+							});
+					</script>
+					<!--//scrolling-->
+					<script type="text/javascript">
+							$(document).ready(function() {
+								/*
+								var defaults = {
+						  			containerID: 'toTop', // fading element id
+									containerHoverID: 'toTopHover', // fading element hover id
+									scrollSpeed: 1200,
+									easingType: 'linear'
+						 		};
+								*/
+
+								$().UItoTop({ easingType: 'easeOutQuart' });
+
+							});
+						</script>
+				    <a href="#move-top" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+			<!--//End-copy-right-->
+		<!--//End-wrap-->
+	</body>
+</html>
