@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Adventure for Breakfast</title>
+		<link href="web/css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!----//webfonts---->
+		<!---script---->
+		<script src="web/js/jquery.min.js"></script>
+		<!---//script---->
+		<!-----768px-menu----->
+		<link type="text/css" rel="stylesheet" href="web/css/jquery.mmenu.all.css" />
+		<script type="text/javascript" src="web/js/jquery.mmenu.js"></script>
+			<script type="text/javascript">
+				//	The menu on the left
+				$(function() {
+					$('nav#menu-left').mmenu();
+				});
+		</script>
+		<!-----//768px-menu----->
+		 <!---strat-slider---->
+	    <link rel="stylesheet" type="text/css" href="web/css/style2.css" />
+		<script type="text/javascript" src="web/js/modernizr.custom.28468.js"></script>
+		<!---//strat-slider---->
+	</head>
+	<body>
+		<!----start-wrap---->
+		<!------start-768px-menu---->
+			<div id="page">
+					<div id="header">
+						<a class="navicon" href="#menu-left"> </a>
+					</div>
+					<nav id="menu-left">
+						<ul>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="map.html">Map</a></li>
+							<li><a href="#about">Get to know us</a></li>
+							<li><a href="#work">Past Adventures</a></li>
+							<!--<li><a href="#services">Services</a></li>-->
+							<li><a href="#contact">Contact</a></li>
+							
+						</ul>
+					</nav>
+			</div>
+		<!------start-768px-menu---->
+			<!----start-header---->
+			<div class="header" id="move-top">
+				<div class="wrap">
+				<div class="header-left">
+					<!----start-logo---->
+					<div class="logo">
+						<a href="index.html"><img src="web/images/logo.png" title="wildflat" /> </a>
+					</div>
+					<!----//End-logo---->
+				</div>
+				<div class="header-right">
+					<!----start-top-nav---->
+					<div class="top-nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li class="active"><a href="map.html">Map</a></li>
+							
+
+						</ul>
+					</div>
+					<!----//End-top-nav---->
+					<!--start-search-box
+					<div class="search">
+						<div class="search-box">
+							<div id="sb-search" class="sb-search">
+								<form>
+									<input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+									<input class="sb-search-submit" type="submit" value="">
+									<span class="sb-icon-search"> </span>
+								</form>
+							</div>
+						</div>
+						search-scripts-->
+						<script src="web/js/modernizr.custom.js"></script>
+						<script src="web/js/classie.js"></script>
+						<script src="web/js/uisearch.js"></script>
+						<script>
+							new UISearch( document.getElementById( 'sb-search' ) );
+						</script>
+						<!----//search-scripts---->
+					</div>
+					</div>
+					<!----//End-search-box--->
+					<div class="clear"> </div>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			<!----//End-header---->
+			<!---- start-slider---->
+			<div class="slider">
+				<!--End-top-nav---->
+				<!---start-da-slider----->
+				<div id="da-slider" class="da-slider">
+				<div class="da-slide">
+					<label><span> </span></label>
+					
+					<i><a href="#"> </a></i>
+					<small><a href="#"></a></small>
+			</div>
+			<script type="text/javascript" src="web/js/jquery.cslider.js"></script>
+			<script type="text/javascript">
+				$(function() {
+				
+					$('#da-slider').cslider({
+						autoplay	: true,
+						bgincrement	: 450
+					});
+				
+				});
+			</script>
+				<!---//End-da-slider----->
+			</div>

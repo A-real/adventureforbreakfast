@@ -44,8 +44,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li class="active"><a href="blog.html">Blog</a></li>
+<<<<<<< HEAD
+							<li><a href="#about">Get to Know us</a></li>
+							<li><a href="#work">Past Adventures</a></li>
+							<!--<li><a href="#services">Services</a></li>-->
+							<li><a href="#contact">Contact</a></li>
+
+=======
 							<li><a href="map.html">Map</a></li>
 							
+>>>>>>> b3782318433a31d0d923a08d744a4a4a438d6574
 						</ul>
 					</nav>
 			</div>
@@ -65,9 +73,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="top-nav">
 						<ul>
 							<li><a href="index.html">Home</a></li>
+<<<<<<< HEAD
+
+=======
 							<li class="active"><a href="blog.html">Blog</a></li>
 							<li><a href="map.html">Map</a></li>
 							
+>>>>>>> b3782318433a31d0d923a08d744a4a4a438d6574
 						</ul>
 					</div>
 					<!--//End-top-nav-->
