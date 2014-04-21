@@ -380,12 +380,12 @@ ZOOM DEFAULT
   	background-position:center;
 }
 .works-bg{
-	background: url(../images/works-bg.png) no-repeat;
+	background: url(../images/services-bg.jpg) no-repeat;
 	background-size: 100% 100%;
-	min-height: 535px;
+	min-height: 340px;
 	position: absolute;
 	width: 100%;
-	bottom: -3%;
+	bottom: -19%;
 	z-index: -1;
 }
 /*----//End-Works----*/
@@ -471,7 +471,7 @@ ZOOM DEFAULT
 	position:relative;
 }
 .services-bg{
-	background: url(../images/services-bg.jpg) no-repeat;
+	background: no-repeat;
 	background-size: 100% 100%;
 	min-height: 340px;
 	position: absolute;
@@ -481,7 +481,7 @@ ZOOM DEFAULT
 }
 /*----*/
 .purches-it h5{
-	font-size: 4em;
+	font-size: 2em;
 	color: #fff;
 	font-family: 'rochesterregular';
 }
