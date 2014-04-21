@@ -380,7 +380,7 @@ ZOOM DEFAULT
   	background-position:center;
 }
 .works-bg{
-	background: url(../images/services-bg.jpg) no-repeat;
+	background: no-repeat;
 	background-size: 100% 100%;
 	min-height: 340px;
 	position: absolute;
@@ -471,12 +471,12 @@ ZOOM DEFAULT
 	position:relative;
 }
 .services-bg{
-	background: no-repeat;
+	background: url(../images/services-bg.jpg) no-repeat;
 	background-size: 100% 100%;
 	min-height: 340px;
 	position: absolute;
 	width: 100%;
-	bottom: -19%;
+	bottom: -17%;
 	z-index: -1;
 }
 /*----*/
