@@ -87,7 +87,7 @@ body{
 	display: block;
 }
 .top-nav ul li a:hover,.top-nav ul li.active a{
-	color:#5695EC;
+	color:#165c64;
 }
 .search{
 	float:right;
@@ -122,7 +122,7 @@ body{
 	padding: 0px 46px 0px 0px;
 	font-family: inherit;
 	font-size: 20px;
-	color: #5695EC;
+	color: #165c64;
 }
 input[type="search"].sb-search-input {
 	-webkit-appearance: none;
@@ -202,7 +202,7 @@ input[type="search"].sb-search-input {
 	margin: 4em 0 2em 0;
 }
 .head span{
-	background:#5695EC;
+	background:#165c64;
 	height:2px;
 	display:block;
 	width:10%;
@@ -272,7 +272,7 @@ input[type="search"].sb-search-input {
 	color: #FFF;
 	text-transform: uppercase;
 	background: #3D3E41;
-	border-bottom: 4px solid #5695EC;
+	border-bottom: 4px solid #165c64;
 	margin-bottom: 0.2em;
 	display: block;
 }
@@ -615,7 +615,7 @@ ZOOM DEFAULT
 	padding: 0.6em 0 0 0;
 }
 .contact-head span{
-	background: ##5695EC;
+	background: #165c64;
 	height: 2px;
 	display: block;
 	width: 15%;
@@ -681,7 +681,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	text-transform: uppercase;
 }
 .contact-left input[type="submit"]:hover{
-	background: #5695EC;
+	background: #165c64;
 }
 .contact-left form{
 	padding:1.5em 0;
@@ -821,7 +821,7 @@ input:-ms-placeholder { color:#3D3E41; }
 /*** move top **/
 /*----start-blog----*/
 .blog{
-	border-top: 2px solid ##5695EC;
+	border-top: 2px solid #165c64;
 	padding-top: 2em;
 }
 .blog-left{
@@ -832,7 +832,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	
 }
 .blog-left-head span {
-	background: ##5695EC;
+	background: ##165c64;
 	height: 2px;
 	display: block;
 	width: 10%;
@@ -946,7 +946,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	line-height: 1.7em;
 }
 .artical-details p a{
-	color:#5695EC;
+	color:#165c64;
 }
 .artical-details-left{
 	float:left;
@@ -993,7 +993,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	margin: 4em 0 4em;
 }
 .blog-artical-pagenate ul li a:hover,.blog-artical-pagenate ul li.active a{
-	background:#5695EC;
+	background:#165c64;
 	color:#FFF;
 }
 .blog-artical-pagenate ul li.frist span{
@@ -1028,7 +1028,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	
 }
 .blog-right-head span{
-	background: #5695EC;
+	background: #165c64;
 	height: 2px;
 	display: block;
 	width: 30%;
@@ -1041,7 +1041,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	padding: 0.3em 0;
 }
 .accordion-content ul li a{
-	color: #5695EC;
+	color: #165c64;
 	text-transform: uppercase;
 	font-size: 0.875em;
 	font-weight: 600;
@@ -1166,7 +1166,7 @@ input:-ms-placeholder { color:#3D3E41; }
 .spa-para{
 	background: #EDEDED;
 	padding: 1em;
-	border-left: 3px solid #5695EC;
+	border-left: 3px solid #165c64;
 	font-style: italic;
 }
 /*---*/
@@ -1174,7 +1174,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	margin:2em 0;
 }
 .comment-secion-head span{
-	background: #5695EC;
+	background: #165c64;
 	height: 2px;
 	display: block;
 	width: 10%;
@@ -1190,7 +1190,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	font-size: 0.5em;
 	vertical-align: super;
 	margin-left: 1em;
-	color:#5695EC;
+	color:#165c64;
 }
 .artical-comment-grid-left{
 	width: 8%;
@@ -1371,7 +1371,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	background: #F3F3F3;
 	padding: 1em;
 	margin-bottom: 0.5em;
-	border-bottom: 2px solid #5695EC;
+	border-bottom: 2px solid #165c64;
 }
 #accordian ul ul {
 	display: none;
@@ -1514,7 +1514,7 @@ h2.resp-accordion {
    padding: 5px 0;
 }
 .resp-tab-active {
-   border-top: 3px solid #5695EC;
+   border-top: 3px solid #165c64;
     border-bottom: none;
     margin-bottom: -1px !important;
     padding: 12px 14px 14px 14px !important;
@@ -1677,7 +1677,7 @@ h2.resp-accordion:first-child {
 	letter-spacing: 0.1em;
 }
 .shortcode-info-box a:hover {
-	background: #5695EC;
+	background: #165c64;
 }
 .lpara{
 	font-size: 0.875em;
@@ -1686,7 +1686,7 @@ h2.resp-accordion:first-child {
 	margin-bottom: 0.5em;
 }
 .lpara:first-letter{
-	color: #5695EC;
+	color: #165c64;
 	text-transform: uppercase;
 	font-size:2.5em;
 	font-weight: 700;
@@ -1896,7 +1896,7 @@ h2.resp-accordion:first-child {
 	font-weight:700;
 }
 .short-codepara-grid span{
-	background: #5695EC;
+	background: #165c64;
 	height: 2px;
 	display: block;
 	width: 10%;
