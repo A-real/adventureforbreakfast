@@ -9,9 +9,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<head>
 		<title>Adventure for Breakfast</title>
 		<link href="web/css/style.css" rel='stylesheet' type='text/css' />
+		<link href="web/css/mapstyle.css" rel='stylesheet' type='text/css' />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</script>
+		<script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.11/firebase.js'></script>
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
 		<!--webfonts-->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 		<!--//webfonts-->
@@ -152,6 +155,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			</div>
 			<!--//End-about-->
+<!--start-map-->
+		<section>
+				<div class="head"> <span></span> 
+					<p><h3>Travel Map</h3></p>
+					<p>Help us put together the difinitve list of "can't miss" stops between Howey in the Hills, FL and San Fancisco, CA</p>
+					<p>Chances are you have had a great expierance while traveling somewhere in US, so tell us about it!</p> 	 
+					<p>You can use the form below to pin your favorite restaurant, camp ground, or scenic spot along the highway.</p>
+				</div>
+					<div id="map-canvas"></div>
+    				<div class="form">
+      				<form id='placeForm'>
+				        <input id="searchTextField" type="text" size="70" placeholder="Add your location..."><br>
+				        <input id="commentsField" type="text" size="70" placeholder="Add comments..."><br>
+				        <input type="text" id="submitter" size="70" placeholder="Your name!"><br>
+				        <button type='submit' id="submit" text="Add your place!">Add your place!</button>
+      				</form>
+	    			</div>
+				<!--//End-da-slider-->
+			</section>
+			<!--//End-map-->				
 <!--start-services-->
 			<div class="services" id="blog">
 				<div class="wrap">
@@ -538,6 +561,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 							});
 						</script>
+						<script type='text/javascript' src='web/js/map_db.js'></script>
 				    <a href="#move-top" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
 				</div>
 			</div>

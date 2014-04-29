@@ -414,6 +414,53 @@ ZOOM DEFAULT
 	line-height: 1.7em;
 } 
 /*----//End-about---*/
+/*----start-map----*/
+.map h5{
+	font-size: 2em;
+	color: #fff;
+	font-family: 'rochesterregular';
+}
+.map{
+	text-align:center;
+	margin-bottom:2em;
+}
+.map a{
+	background: #79ccdb;
+	color: #fff;
+	font-weight: 100;
+	padding: 0.8em 2em;
+	display: inline-block;
+	margin-top: 1em;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	letter-spacing: 0.1em;
+}
+.map a:hover{
+	background:#5695EC;
+}
+.map{
+	padding: 1.5em 0 6em;
+}
+.map-grid{
+	float: left;
+	width: 29.33%;
+	margin-right: 5%;
+	text-align: center;
+}
+.map-grid h3{
+	color: #3D3E41;
+	font-size: 1.8em;
+	padding: 0.5em 0;
+	font-weight: 100;
+}
+.map-grid p{
+	font-size: 0.875em;
+	color: #3D3E41;
+	line-height: 1.7em;
+} 
+/*----//End-map---*/
 /*----start-services----*/
 .services-grid{
 	float: left;
