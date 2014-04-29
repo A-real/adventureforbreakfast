@@ -1,8 +1,15 @@
 
+
+var viewportWidth = $(window).width();
+var zoomSetting = 4
+if (viewportWidth < 500) {
+    zoomSetting = 3;
+  };
+
 //Set Up Google Maps//
 var mapOptions = {
   center: new google.maps.LatLng(39.00, -100.00),
-  zoom: 4,
+  zoom: zoomSetting,
 };
 var map = new google.maps.Map(document.getElementById("map-canvas"),
   mapOptions);
