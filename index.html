@@ -562,6 +562,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							});
 						</script>
 						<script type='text/javascript' src='web/js/map_db.js'></script>
+						<script type="text/javascript">
+				      var input = document.getElementById('searchTextField');
+				      var options = {
+				        componentRestrictions: {country: 'us'}
+				      };
+				      autocomplete = new google.maps.places.Autocomplete(input, options);
+				      </script>
 				    <a href="#move-top" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
 				</div>
 			</div>
