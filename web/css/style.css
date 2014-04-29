@@ -490,7 +490,7 @@ ZOOM DEFAULT
 	margin-bottom:2em;
 }
 .purches-it a{
-	background: #b0bd49;
+	background: #79ccdb;
 	color: #fff;
 	font-weight: 100;
 	padding: 0.8em 2em;
@@ -568,7 +568,7 @@ ZOOM DEFAULT
     background: url(../images/news-slider-icons.png) no-repeat -25px 0px;
 }
 .latest-news-grid h3{
-	color:#b0bd49;
+	color:#79ccdb;
 	font-size:1.5em;
 	font-weight:700;
 	padding-bottom:0.5em;
@@ -591,7 +591,7 @@ ZOOM DEFAULT
 	margin-top: 2em;
 }
 .bottom-border span{
-	background: #b0bd49;
+	background: #79ccdb;
 	width: 30%;
 	height: 2px;
 	display: block;
@@ -663,7 +663,7 @@ input:-ms-placeholder { color:#3D3E41; }
 }
 .contact-left input[type="submit"]{
 	font-family: 'Open Sans', sans-serif;
-	background: #b0bd49;
+	background: #79ccdb;
 	color: #fff;
 	font-weight: 100;
 	padding: 0.8em 2em;
@@ -705,7 +705,7 @@ input:-ms-placeholder { color:#3D3E41; }
 /*----//End-contact----*/
 /*----strat-footer----*/
 .footer{
-	background: #b0bd49;
+	background: #79ccdb;
 	padding: 10em 0 10em;
 }
 .footer-left{
@@ -935,7 +935,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	-o-transition:0.5s all;
 }
 .artical-tags ul li a:hover{
-	color:#b0bd49;
+	color:#79ccdb;
 }
 .artical-tags{
 	margin: 1.5em 0 1.2em;
@@ -963,7 +963,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	margin: 2em 0;
 }
 .artical-more-btn a span{
-	background: #b0bd49;
+	background: #79ccdb;
 	color: #FFF;
 	padding: 0.5em 2em;
 	display: inline-block;
@@ -1080,7 +1080,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	-o-transition: 0.5s all;
 }
 .tags-for ul li a:hover,.blog-comment-grid-right a:hover{
-	color: #b0bd49;
+	color: #79ccdb;
 }
 .blog-right-accordinations{
 	margin: 2.2em 0;
@@ -1228,7 +1228,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	margin-top:0.5em;
 }
 .p-replay a{
-	color: #b0bd49;
+	color: #79ccdb;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -1242,7 +1242,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	-o-transition: 0.5s all;
 }
 .p-name a:hover{
-	color: #b0bd49;
+	color: #79ccdb;
 }
 .sub-comment{
 	margin-left:5%;
@@ -1327,7 +1327,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	outline:none;
 }
 .table-form input[type="submit"]:hover{
-	color:#b0bd49;
+	color:#79ccdb;
 	border: 1px solid rgba(119, 199, 231, 0.45);
 }
 .table-form label{
@@ -1665,7 +1665,7 @@ h2.resp-accordion:first-child {
 	font-size: 1.3em;
 }
 .shortcode-info-box a {
-	background: #b0bd49;
+	background: #79ccdb;
 	color: #fff;
 	font-weight: 100;
 	padding: 0.8em 1.78em;
@@ -1724,11 +1724,11 @@ h2.resp-accordion:first-child {
 	margin-bottom: 0.6em;
 }
 .blue-btn-normal input[type="button"]{
-	background:#b0bd49;
-	border:1px solid #b0bd49;
+	background:#79ccdb;
+	border:1px solid #79ccdb;
 }
 .blue-btn-hover input[type="button"]{
-	background:#b0bd49;
+	background:#79ccdb;
 	border-bottom:3px solid #477CC6;
 	border-left:none;
 	border-right:none;
@@ -1736,7 +1736,7 @@ h2.resp-accordion:first-child {
 }
 .blue-btn-active input[type="button"]{
 	background:#477CC6;
-	border-bottom:3px solid #b0bd49;
+	border-bottom:3px solid #79ccdb;
 	border-left:none;
 	border-right:none;
 	border-top:none;
@@ -1758,18 +1758,18 @@ h2.resp-accordion:first-child {
 .gray-btn-normal input[type="button"]{
 	background:#F3F3F3;
 	border:3px solid #CDCDCD;
-	color:#b0bd49;
+	color:#79ccdb;
 	border-left:none;
 	border-right:none;
 	border-top:none;
 }
 .gray-btn-hover input[type="button"]{
 	background:#F3F3F3;
-	border-bottom:3px solid #b0bd49;
+	border-bottom:3px solid #79ccdb;
 	border-left:none;
 	border-right:none;
 	border-top:none;
-	color:#b0bd49;
+	color:#79ccdb;
 }
 .gray-btn-active input[type="button"]{
 	background:#E8E8E8;
@@ -1803,11 +1803,11 @@ h2.resp-accordion:first-child {
 }
 .drak-btn-hover input[type="button"]{
 	background:#3D3E41;
-	border-bottom:3px solid #b0bd49;
+	border-bottom:3px solid #79ccdb;
 	border-left:none;
 	border-right:none;
 	border-top:none;
-	color:#b0bd49;
+	color:#79ccdb;
 }
 .drak-btn-active input[type="button"]{
 	background:#3D3E41;
@@ -1815,7 +1815,7 @@ h2.resp-accordion:first-child {
 	border-left:none;
 	border-right:none;
 	border-top:none;
-	color:#b0bd49;
+	color:#79ccdb;
 }
 /*--//shortcode-grids-row3--*/
 /*-----start-shortcode-grids-row4----*/
@@ -1859,8 +1859,8 @@ h2.resp-accordion:first-child {
 }
 /*----*/
 .b-left-btn-normal input[type="button"]{
-	background:#b0bd49;
-	border:3px solid #b0bd49; 
+	background:#79ccdb;
+	border:3px solid #79ccdb; 
 	color: #FFF;
 	font-weight:700;
 }
