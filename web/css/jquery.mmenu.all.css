@@ -91,7 +91,7 @@ html.mm-blocking #mm-blocker {
   top: 0;
   z-index: 0; }
   .mm-menu > .mm-panel {
-    background: inherit;
+    background: #2495a2;
     -webkit-overflow-scrolling: touch;
     overflow: scroll;
     overflow-x: hidden;
