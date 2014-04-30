@@ -414,31 +414,31 @@ ZOOM DEFAULT
 	line-height: 1.7em;
 } 
 .circularariel {
-	width: 200px;
+	width: 225px;
 	margin:0 auto;
-	height: 200px;
+	height: 225px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url(../images/p11.jpg) no-repeat;
+	background: url(../images/ariel.jpg) no-repeat;
 	}
 .circulareric {
-	width: 200px;
+	width: 225px;
 	margin:0 auto;	
-	height: 200px;
+	height: 225px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url(../images/p11.jpg) no-repeat;
+	background: url(../images/Eric.jpg) no-repeat;
 	}
 .circularwinston {
-	width: 200px;
+	width: 225px;
 	margin:0 auto;
-	height: 200px;
+	height: 225px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url(../images/p11.jpg) no-repeat;
+	background: url(../images/winston.jpg) no-repeat;
 	}
 /*----//End-about---*/
 /*----start-map----*/
