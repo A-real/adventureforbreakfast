@@ -1,5 +1,5 @@
 
-
+// Set zoom value based on viewport width //
 var viewportWidth = $(window).width();
 var zoomSetting = 4
 if (viewportWidth < 500) {
@@ -91,6 +91,3 @@ var setMarker = function(lat, long, name, comment, submitter) {
   });
   marker.setMap(map);
 };
-
-
-
