@@ -2,6 +2,18 @@ img {
 	max-width:99999px;
 }
 
+.services a {
+    color: #165c64;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.services a:hover {
+    color:#f8ae37;
+}
 #map-canvas {
 	height:100%;
 	max-height:400px;
