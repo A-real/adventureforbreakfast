@@ -37,6 +37,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	background:#FFF;
 }
+
 /*----start-wrap----*/
 .wrap{
 	width:70%;
@@ -218,7 +219,7 @@ input[type="search"].sb-search-input {
 #info {
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
-	border-radius:5px;				
+	border-radius:5px;
 	background:#fcf8e3;
 	border:1px solid  #fbeed5;
 	width:95%;
@@ -239,12 +240,12 @@ input[type="search"].sb-search-input {
 #info a {
 	color:#c09853;
 	text-decoration:none;
-}	
+}
 #info p {
 	margin:5px 0 0 0;
 }
-.container { 
-	position: relative; 
+.container {
+	position: relative;
 }
 #filters {
 	margin: 4% auto 3% auto;
@@ -361,12 +362,12 @@ input[type="search"].sb-search-input {
 /*---------------
 ZOOM DEFAULT
 ---------------*/
-.zoom { 
+.zoom {
     width: 256px;
-    height:256px; 
-    display:block; 
-    position:relative; 
-    overflow:hidden; 
+    height:256px;
+    display:block;
+    position:relative;
+    overflow:hidden;
     background:#fff url(../images/loader.gif) no-repeat center;
 }
 .zoom img { display:none }
@@ -412,7 +413,7 @@ ZOOM DEFAULT
 	font-size: 0.875em;
 	color: #3D3E41;
 	line-height: 1.7em;
-} 
+}
 .circularariel {
 	width: 225px;
 	margin:0 auto;
@@ -424,7 +425,7 @@ ZOOM DEFAULT
 	}
 .circulareric {
 	width: 225px;
-	margin:0 auto;	
+	margin:0 auto;
 	height: 225px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
@@ -486,8 +487,10 @@ ZOOM DEFAULT
 	font-size: 0.875em;
 	color: #3D3E41;
 	line-height: 1.7em;
-} 
+}
 /*----//End-map---*/
+
+
 /*----start-services----*/
 .services-grid{
 	float: left;
@@ -544,6 +547,7 @@ ZOOM DEFAULT
 .services{
 	position:relative;
 }
+
 .services-bg{
 	background: url(../images/services-bg.jpg) no-repeat;
 	background-size: 100% 100%;
@@ -621,13 +625,13 @@ ZOOM DEFAULT
     margin-top: 10px;
     margin-bottom: 10px;
     max-width:100px;
-   
+
 }
 /*** Navigation ***/
 .nbs-flexisel-nav-left,
 .nbs-flexisel-nav-right {
     width: 25px;
-    height: 25px; 
+    height: 25px;
     position: absolute;
     cursor: pointer;
     z-index: 100;
@@ -780,11 +784,12 @@ input:-ms-placeholder { color:#3D3E41; }
 /*----strat-footer----*/
 .footer{
 	background: #2495a2;
-	padding: 10em 0 10em;
+	padding: 5em 0 5em;
 }
 .footer-left{
 	float:left;
 	width:60%;
+	padding:5% 0 5% 0;
 }
 .footer-left h2{
 	color: #FFF;
@@ -799,52 +804,48 @@ input:-ms-placeholder { color:#3D3E41; }
 .footer-right{
 	float: right;
 	width: 38%;
-	text-align: right;
+	text-align: center;
+	margin:0 auto;
 }
 .footer-right ul li{
-	margin-right: 1.8em;
+	margin-right: 0.5em;
 	display:inline-block;
 }
 .footer-right ul li a span{
-	width:28px;
-	height:23px;
+	width:67px;
+	height:123px;
 	display:inline-block;
 }
 .youtube span{
-	background:url(../images/social-icons.png) no-repeat 0px 0px;
+	background:url(../images/youtube.png) no-repeat;
 }
 .youtube span:hover{
-	background: url(../images/social-icons.png) no-repeat 0px -27px;
 }
-.skye span{
-	background: url(../images/social-icons.png) no-repeat -57px 0px;
+.facebook span{
+	background: url(../images/facebook.png) no-repeat;
 }
-.skye span:hover{
-	background: url(../images/social-icons.png) no-repeat -57px -27px;
+.facebook span:hover{
 }
-.flicker span{
-	background: url(../images/social-icons.png) no-repeat -113px 0px;
+.spotify span{
+	background: url(../images/spotify.png) no-repeat;
 }
-.flicker span:hover{
-	background: url(../images/social-icons.png) no-repeat -113px -27px;
-}
-.rss span{
-	background: url(../images/social-icons.png) no-repeat -167px -27px;
-}
-.rss span:hover{
-	background: url(../images/social-icons.png) no-repeat -167px 0px;
+.spotify span:hover{
 }
 .twitter span{
-	background: url(../images/social-icons.png) no-repeat -224px 0px;
+	background: url(../images/twitter.png) no-repeat;
 }
 .twitter span:hover{
-	background: url(../images/social-icons.png) no-repeat -224px -27px;
+
 }
-.dribbble span{
-	background: url(../images/social-icons.png) no-repeat -280px 0px;
+.github span{
+	background: url(../images/github.png) no-repeat;
 }
-.dribbble span:hover{
-	background: url(../images/social-icons.png) no-repeat -280px -27px;
+.github span:hover{
+}
+.linkedin span{
+	background: url(../images/linkedin.png) no-repeat;
+}
+.linkedin span:hover{
 }
 /*----//End-footer----*/
 /*----start-copy-right----*/
@@ -903,7 +904,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	width:75%;
 }
 .blog-left-head{
-	
+
 }
 .blog-left-head span {
 	background: ##165c64;
@@ -1099,7 +1100,7 @@ input:-ms-placeholder { color:#3D3E41; }
 }
 /*-----start-blog-right----*/
 .blog-right{
-	
+
 }
 .blog-right-head span{
 	background: #165c64;
@@ -1277,7 +1278,7 @@ input:-ms-placeholder { color:#3D3E41; }
 	-webkit-border-radius:30em;
 	-moz-border-radius:30em;
 	-o-border-radius:30em;
-} 
+}
 .artical-comment-grid-info{
 	float:right;
 	width:90%;
@@ -1700,7 +1701,7 @@ h2.resp-accordion:first-child {
 	color: #3D3E41;
 	line-height: 1.7em;
 	margin-bottom: 0.5em;
-} 
+}
 .shortcode-grids-row2 ul li p span{
 	width:10px;
 	height:10px;
@@ -1926,7 +1927,7 @@ h2.resp-accordion:first-child {
 	padding: 0.5em;
 	cursor: pointer;
 	font-family: 'Open Sans', sans-serif;
-	
+
 	font-size: 1em;
 	outline: none;
 	margin-bottom: 0.6em;
@@ -1934,26 +1935,26 @@ h2.resp-accordion:first-child {
 /*----*/
 .b-left-btn-normal input[type="button"]{
 	background:#2495a2;
-	border:3px solid #2495a2; 
+	border:3px solid #2495a2;
 	color: #FFF;
 	font-weight:700;
 }
 .b-left-btn-hover input[type="button"]{
 	background:#6598DF;
-	border:3px solid #6598DF; 
+	border:3px solid #6598DF;
 	color: #FFF;
 	font-weight:700;
 }
 .b-left-btn-active input[type="button"]{
 	background:#477CC6;
-	border:3px solid #477CC6; 
+	border:3px solid #477CC6;
 	color: #FFF;
 	font-weight:700;
 }
 /*----*/
 .g-left-btn-normal input[type="button"]{
 	background:#F3F3F3;
-	border:3px solid #F3F3F3; 
+	border:3px solid #F3F3F3;
 	color: #3D3E41;
 	font-weight:700;
 }
@@ -1965,7 +1966,7 @@ h2.resp-accordion:first-child {
 }
 .g-left-btn-active input[type="button"]{
 	background:#F3F3F3;
-	border:3px solid #F3F3F3; 
+	border:3px solid #F3F3F3;
 	color: #3D3E41;
 	font-weight:700;
 }
@@ -2112,7 +2113,7 @@ h2.resp-accordion:first-child {
 	.services-grid {
 		width: 41%;
 		margin-right: 2%;
-		margin-bottom: 2%;	
+		margin-bottom: 2%;
 	}
 	.shortcode-info-box a {
 		padding: 0.5em 0.2em;
@@ -2306,7 +2307,7 @@ h2.resp-accordion:first-child {
 	.services-grid {
 		width: 41%;
 		margin-right: 2%;
-		margin-bottom: 2%;	
+		margin-bottom: 2%;
 	}
 	.shortcode-info-box a {
 		padding: 0.5em 0.2em;

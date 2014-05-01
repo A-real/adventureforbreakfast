@@ -8,12 +8,19 @@ img {
 	max-width:800px;
 	margin:0 auto;
 	margin-top:20px;
+    width:90%;
 }
 
-section {
-	height:700px;
-}
 
+.section {
+    height:700px;
+    padding-bottom:180px;
+}
+.section p {
+    width:80%;
+    margin:0 auto;
+    padding-top:1em;
+}
 .form {
 padding: 0;
 width: auto;
