@@ -847,6 +847,11 @@ input:-ms-placeholder { color:#3D3E41; }
 }
 .linkedin span:hover{
 }
+.pintrest span{
+	background: url(../images/pintrest.png) no-repeat;
+}
+.pintrest span:hover{
+}
 /*----//End-footer----*/
 /*----start-copy-right----*/
 .copy-right{
