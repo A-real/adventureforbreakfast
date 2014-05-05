@@ -506,6 +506,7 @@ ZOOM DEFAULT
 .services-grid-left{
 	float: left;
 	width: 17%;
+	height:100px;
 	text-align: center;
 }
 .services-grid-left span{
