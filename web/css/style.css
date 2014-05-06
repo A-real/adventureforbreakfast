@@ -561,8 +561,11 @@ ZOOM DEFAULT
 /*----*/
 .purches-it h5{
 	font-size: 2em;
-	color: #fff;
+	color: #B6B0B0;
 	font-family: 'rochesterregular';
+}
+.purches-it h5:hover{
+	color:#fff;
 }
 .purches-it{
 	text-align:center;
