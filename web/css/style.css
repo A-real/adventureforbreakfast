@@ -811,6 +811,13 @@ input:-ms-placeholder { color:#3D3E41; }
 	text-align: center;
 	margin:0 auto;
 }
+.footer-right h2{
+	color: #FFF;
+	font-size: 1.4em;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
 .footer-right ul li{
 	margin-right: 0.5em;
 	display:inline-block;
