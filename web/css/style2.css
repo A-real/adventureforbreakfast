@@ -55,7 +55,7 @@ background-size: 100% 100%;
 	background: url(../images/slide-icon.png) no-repeat 0px 0px;
 }
 .da-slide small a{
-	color: #B6B0B0;
+	color: #fff;
 	font-family: 'rochesterregular';
 	font-size: 2em;
 	margin-top: 0.3em;
@@ -67,7 +67,7 @@ background-size: 100% 100%;
 	-o-transition:0.5s all;
 }
 .da-slide small a:hover{
-	color:#fff;
+	color:#333;
 }
 .da-slide{
 	position: absolute;
@@ -955,7 +955,7 @@ background-size: 100% 100%;
 	}
 	.map-grid h3 {
 		font-size: 1.5em;
-	}	
+	}
 }
 @media only screen and (max-width: 320px) and (min-width:240px) {
 	.da-dots {
