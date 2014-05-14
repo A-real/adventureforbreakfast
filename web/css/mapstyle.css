@@ -10,6 +10,7 @@ img {
     -o-transition: 0.5s all;
     text-transform: uppercase;
     font-weight: 900;
+    overflow:hidden;
 }
 .services a:hover {
     color:#f8ae37;
@@ -24,10 +25,7 @@ img {
 }
 
 
-.section {
-    height:700px;
-    padding-bottom:180px;
-}
+
 .section p {
     width:80%;
     margin:0 auto;

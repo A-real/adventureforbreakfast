@@ -53,7 +53,8 @@ body{
 	display:none;
 }
 .header{
-	padding: 1.2em 0;
+	text-align:center;
+	padding: 0.3em 0;
 	border-bottom: 1px solid #EEE;
 }
 .logo{
@@ -63,13 +64,16 @@ body{
 	float:left;
 }
 .header-right{
-	float: right;
+	/*float: right;*/
 	width: 57%;
 	font-family: 'nexa_boldregular';
 	position: relative;
 }
 .top-nav{
-	float:left;
+	margin:0 auto;
+}
+.top-nav ul {
+	text-align:center;
 }
 .top-nav ul li{
 	display:inline-block;
@@ -509,6 +513,7 @@ ZOOM DEFAULT
 	height:100px;
 	text-align: center;
 }
+
 .services-grid-left span{
 	width:64px;
 	height:64px;
@@ -548,7 +553,10 @@ ZOOM DEFAULT
 .services{
 	position:relative;
 }
-
+.section {
+    height:700px;
+    padding-bottom:80px;
+}
 .services-bg{
 	background: url(../images/services-bg.jpg) no-repeat;
 	background-size: 100% 100%;
@@ -563,9 +571,14 @@ ZOOM DEFAULT
 	font-size: 2em;
 	color: #B6B0B0;
 	font-family: 'rochesterregular';
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
 }
+
 .purches-it h5:hover{
-	color:#fff;
+	color:#333;
 }
 .purches-it{
 	text-align:center;
@@ -2386,10 +2399,22 @@ h2.resp-accordion:first-child {
 		top: 18px;
 
 	}
+.header {
+	padding:2.3em 0;
+}
+	.section {
+    height:700px;
+    padding-bottom:120px;
+	}
 	.services-grid {
 		width: 89%;
 		margin-right: 0%;
 		margin-bottom: 2%;
+	}
+
+	.services-grids a {
+		font-size: 1em;
+		letter-spacing:-1px;
 	}
 	.shortcode-info-box a {
 		padding: 0.5em 0.2em;
@@ -2519,11 +2544,26 @@ h2.resp-accordion:first-child {
 		top: 18px;
 
 	}
+
+	.header {
+	padding:2.3em 0;
+	}
+
+.section {
+    height:700px;
+    padding-bottom:150px;
+	}
 	.services-grid {
 		width: 89%;
 		margin-right: 0%;
 		margin-bottom: 2%;
 	}
+
+	.services-grids a {
+		font-size: 1em;
+		letter-spacing:-1px;
+	}
+
 	.shortcode-info-box a {
 		padding: 0.5em 0.2em;
 		font-size: 0.875em;
@@ -2725,6 +2765,16 @@ h2.resp-accordion:first-child {
 		top: 18px;
 
 	}
+
+	.header {
+	padding:2.3em 0;
+	}
+
+	.section {
+    height:700px;
+    padding-bottom:200px;
+	}
+
 	.services-grid {
 		width: 89%;
 		margin-right: 0%;
@@ -2853,9 +2903,11 @@ h2.resp-accordion:first-child {
 		font-size: 1.8em;
 	}
 	/*---*/
-	.services-grid-right h4 {
+	.services-grids a{
 		padding: 0 0 0.2em 0;
-		font-size: 1.2em;
+		font-size: 0.9em;
+		letter-spacing:-1px;
+		overflow:hidden;
 	}
 	.services-grid-left {
 		float: none;
@@ -2938,11 +2990,26 @@ h2.resp-accordion:first-child {
 		top: 18px;
 
 	}
+
+	.header {
+	padding:2.3em 0;
+	}
+
 	.services-grid {
 		width: 88%;
 		margin-right: 0%;
 		margin-bottom: 1em;
 		padding: 1em;
+	}
+
+	.section {
+    height:700px;
+    padding-bottom:240px;
+	}
+
+	.services-grids a {
+		font-size: 0.9em;
+		letter-spacing:-1px;
 	}
 	.shortcode-info-box a {
 		padding: 0.5em 0.2em;
